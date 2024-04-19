@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-
-model = joblib.load('Models/best_model.joblib')
+model = joblib.load('model/PATH/best_model.joblib')
 
 # Create a function to take input as a DataFrame and return predictions
 def predict(input_data):
@@ -15,7 +14,7 @@ column_names = ['num_connections', 'delivery_perc', 'annual_consume_lowtarif_per
                 'perc_of_active_connections', 'smartmeter_perc', 'number_amperage',
                 'number_fuses', 'zipcode_processed']
 
-# Collecting inputs from the user in Streamlit
+
 inputs = {
     'num_connections': st.number_input('Number of Connections', min_value=0.0, format='%.2f'),
     'delivery_perc': st.number_input('Delivery Percentage', min_value=0.0, max_value=100.0, format='%.2f'),
