@@ -5,7 +5,7 @@
 This project focuses on developing an advanced predictive model to forecast energy consumption within Amsterdam. It employs machine learning techniques using a comprehensive dataset that encompasses infrastructural metrics collected from 2009 to 2020. By accurately predicting energy usage, this model aids in informing sustainable energy management and policy decisions.
 
 ## Dataset
-The dataset used for this study includes various infrastructural metrics and spans from the years 2009 to 2020, reflecting the consumption patterns within Amsterdam. Access the dataset through this [Google Drive link](https://drive.google.com/file/d/1GpXqhv_ROWwRsiMM5r2aeA_hnhB5Eir7/view?usp=share_link).
+The dataset used for this study includes various infrastructural metrics and spans from the years 2009 to 2020, reflecting the consumption patterns within Amsterdam. Access the dataset through this [Google Drive link](https://drive.google.com/drive/folders/1aDOgvnGfYqp8SUxLMIuD5r2u8aEZmYp8?usp=share_link).
 
 ## Model Usage
 To utilize the pre-trained model for consumption forecasting:
